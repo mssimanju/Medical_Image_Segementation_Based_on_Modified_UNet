@@ -25,14 +25,22 @@ There was an Graphics tablet I have not used for long time, and it occured to me
 
 The results are as follows.
 
-![image](https://github.com/user-attachments/assets/f0c4c659-5fe0-4122-a05c-6c0ae4762f93)
+The mask is loaded into the system.
+![image](https://github.com/user-attachments/assets/8a621e27-8ab0-4741-9463-0becd77d4616)
 
-![image](https://github.com/user-attachments/assets/6f286869-7210-4884-8c0e-b3d38d285787)
+Draw randomly on the image. Because this is an binary classifying mission, we can easily use white as 1, and black as 0. Drawingg on the mask is actually changing the value (1 or 0) on the pixel.
+
+![image](https://github.com/user-attachments/assets/7c97454c-0e55-4695-b66a-d84526485a65)
+
+After that, product the mask and image elementwise to see the result.
 
 ![image](https://github.com/user-attachments/assets/0e6dd6ec-2c4c-4da0-b6bc-cb1e77b7db34)
 
+Not satisfied? Press ctrl+z to go back to mask and coutinuing modifying it.
+
 And this is the whole process of getting a segmentaion
 
-![image](https://github.com/user-attachments/assets/9f1ff87b-0694-45be-b030-ba4a6a5c271e)
+![image](https://github.com/user-attachments/assets/c9530281-8328-4fd6-9336-f67414a39b47)
+
 
 There are still some defects in the system waiting to be improved, maybe later.
